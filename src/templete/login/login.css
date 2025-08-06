@@ -1,0 +1,42 @@
+.login-contrenar{
+    padding: 5px;
+    width: 100%;
+}
+.login-contrenar form{
+    padding: 5px;
+    transform: translateY(45%);
+}
+.login-contrenar form fieldset {
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+.login-contrenar form fieldset legend{
+    padding: 5px;
+}
+.login-contrenar form fieldset input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size:1rem ;
+    padding: 3px;
+}
+.login-contrenar form button{
+    width: 200px;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+.login-contrenar form button:hover{
+    color: blue;
+    border: 2px solid blue;
+    background-color: white;
+}

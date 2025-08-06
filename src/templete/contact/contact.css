@@ -1,0 +1,65 @@
+.contact-div{
+    padding: 5px;
+}
+.contact-div .content-box{
+    padding: 5px;
+    padding: 5px;
+}
+.contact-div .content-box h2{
+    padding: 5px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
+.contact-div .content-box p{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.contact-div .authorization{
+    padding: 5px;
+    border: 2px solid black;
+}
+.contact-div .authorization .card{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+.contact-div .authorization .card  img{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.contact-div .authorization .card .auth-value{
+    padding: 5px;
+}
+.contact-div .authorization .card .auth-value h2{
+    padding-bottom: 5px;
+}
+.contact-div .authorization .card .auth-value h4{
+    padding: 5px;
+}
+.contact-div address{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    word-spacing: 2px;
+}
+@media screen and (max-width:576px) {
+    .contact-div .authorization .card{
+        display: block;
+        margin: auto;
+    }
+    .contact-div .authorization .card img{
+        display: block;
+        margin: auto;
+    }
+}

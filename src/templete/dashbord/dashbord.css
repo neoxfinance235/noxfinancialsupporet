@@ -1,0 +1,37 @@
+.dashbord-div{
+    padding: 5px;
+}
+.dashbord-div .welcome{
+    width: 100%;
+    border-bottom: 2px solid blue;
+    padding: 5px;
+}
+.dashbord-div .bord-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.dashbord-div .bord-box .box{
+    display: block;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dashbord-div .bord-box .box span{
+    display: block;
+    padding: 10px ;
+    text-align: center;
+}
+.dashbord-div .bord-box .box span:first-child{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    .dashbord-div .bord-box .box {
+        width: 49%;
+    }
+}

@@ -1,0 +1,44 @@
+.open-account{
+    padding: 5px;
+}
+.open-account form{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 2px;
+    transform: translateY(25%);
+}
+.open-account form fieldset {
+    padding: 5px;
+}
+.open-account form fieldset input{
+    display: block;
+    width: 98%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 2px;
+
+}
+.open-account form fieldset .btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.open-account form fieldset .btn-box button{
+    color: white;
+    font-size: 1rem;
+    background-color: blue;
+    border: 2px solid white;
+    padding: 5px;
+}
+.open-account form fieldset .btn-box button:hover{
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+}

@@ -1,0 +1,39 @@
+.about-main-div .about-us{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 3px;
+    margin-top: 3px;
+}
+.about-main-div .about-us h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.about-main-div .about-us h4{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.about-main-div .about-us p{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+}
+#creative{
+    width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.about-main-div .terf{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

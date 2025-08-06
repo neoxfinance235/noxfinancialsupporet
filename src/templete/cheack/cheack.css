@@ -1,0 +1,18 @@
+.credit-div{
+    padding: 5px;
+}
+.credit-div .contrenar{
+    padding:5px;
+}
+.credit-div .contrenar span{
+    padding: 5px;
+}
+.credit-div button{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+}
+.credit-div button:hover{
+    background-color: white;
+    color: blue;
+}
